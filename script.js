@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function() {
     const displayElement = document.getElementById('bilangan-peserta');
 
     if (displayElement) {
-        displayElement.innerText = "Mengira...";
+        displayElement.innerText = "...";
         fetch(scriptUrl)
             .then(response => response.json())
             .then(data => {
